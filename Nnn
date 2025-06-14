@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eminex Twitch Promotion</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-purple-700 text-white p-6">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Eminex Twitch Promotion</h1>
+      <nav>
+        <a href="#services" class="mx-3 hover:underline">Services</a>
+        <a href="#testimonials" class="mx-3 hover:underline">Testimonials</a>
+        <a href="#contact" class="mx-3 hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-purple-600 text-white py-20 text-center">
+    <h2 class="text-4xl font-bold mb-4">Boost Your Twitch With Real Followers & Views</h2>
+    <p class="text-xl mb-6">Grow your Twitch presence organically with proven results.</p>
+    <a href="#contact" class="bg-white text-purple-700 px-6 py-3 rounded shadow-md font-bold hover:bg-gray-100">Get Started</a>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-16 bg-white">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-8">Our Services</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div>
+          <h4 class="text-xl font-bold mb-2">🎯 Follower Growth</h4>
+          <p>Increase your Twitch followers with real, engaged viewers.</p>
+        </div>
+        <div>
+          <h4 class="text-xl font-bold mb-2">👁️ Live Viewer Boost</h4>
+          <p>Improve your visibility with consistent viewer count growth.</p>
+        </div>
+        <div>
+          <h4 class="text-xl font-bold mb-2">💼 Custom Campaigns</h4>
+          <p>Tailored promotion packages for any streamer’s goals.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="bg-gray-100 py-16">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-8">What Streamers Say</h3>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-6 rounded shadow">
+          <p class="mb-2 italic">"I gained over 1,000 followers in a week thanks to Eminex!"</p>
+          <p class="font-bold">– @StreamerPro</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <video controls class="w-full rounded">
+            <source src="your-testimonial-video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-white py-16">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-8">Get in Touch</h3>
+      <form class="max-w-xl mx-auto space-y-4">
+        <input type="text" placeholder="Your Name" class="w-full p-3 border border-gray-300 rounded" />
+        <input type="email" placeholder="Your Email" class="w-full p-3 border border-gray-300 rounded" />
+        <input type="text" placeholder="Twitch Channel" class="w-full p-3 border border-gray-300 rounded" />
+        <textarea placeholder="How can we help?" rows="4" class="w-full p-3 border border-gray-300 rounded"></textarea>
+        <button type="submit" class="bg-purple-700 text-white px-6 py-3 rounded hover:bg-purple-800">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center py-6 mt-10">
+    © 2025 Eminex Twitch Promotion. All rights reserved.
+  </footer>
+
+</body>
+</html>
